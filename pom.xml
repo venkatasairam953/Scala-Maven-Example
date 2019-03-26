@@ -23,6 +23,18 @@
             <artifactId>scala-library</artifactId>
             <version>${scala.version}</version>
         </dependency>
+        <dependency>
+    <groupId>org.apache.spark</groupId>
+    <artifactId>spark-core_2.10</artifactId>
+    <version>1.4.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.databricks/spark-xml -->
+<dependency>
+    <groupId>com.databricks</groupId>
+    <artifactId>spark-xml_2.10</artifactId>
+    <version>0.2.0</version>
+</dependency>
+
     </dependencies>
 
     <build>
